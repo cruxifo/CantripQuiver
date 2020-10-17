@@ -64,6 +64,6 @@ function genArrows(typerequest) {
         need_new_arrow_type = alreadychosen.includes(arrow_type);
       }
       alreadychosen.push(arrow_type)
-      document.getElementById('numArrows'+i).innerHTML = num_arrows+" Cantrip Ammunition, " + arrows[arrow_type]
+      document.getElementById('numArrows'+i).innerHTML = num_arrows+" Cantrip Ammunition of " + arrows[arrow_type]
 }
 }
