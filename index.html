@@ -1,0 +1,48 @@
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<!DOCTYPE html>
+<! hi2>
+<html>
+<head>
+  <title>The Wildlands Quiver</title>
+</head>
+<body>
+    <h2>The Wildlands Quiver - description and arrow-generator</h2>
+    <h5>Overview</h5>
+    <div>
+    Wondrous item, major tier, rare (requires attunement)
+    <br>
+    This magical quiver can hold up to 60 arrows or bolts without weighing more than 2 pounds. The extradimensional space that allows this is connected to the feywild, and provides special Cantrip Ammunition each day (typically arrows) that contain a seed of wild magic.<br>
+    If the quiver is attuned to someone, anyone else reaching their hand in finds only empty space. If it is attuned to nobody, it contains a single piece of Cantrip Ammunition (13: Light).<br>
+    In addition to the normal requirements, attuning to this weapon requires the would-be wielder to break one Cantip Ammunition over their knee, typically either having been given the Cantrip Ammunition by a previous owner passing it on or finding The Wildlands Quiver unattuned with one Cantrip Ammunition (13: Light) inside, as above.<br>
+    </div>
+    <h5>Cantrip Ammunition</h5>
+    <div>
+    Each dawn, 3 types of Cantrip Ammunition are chosen randomly from the <a href="https://docs.google.com/spreadsheets/d/1vq2hVdsBQb047sFlYBMOOhl1lPZSnnWlzrBXPx2hTlM/edit#gid=960129545">linked table</a> (generator below) and 1d3 of each appear in the quiver, replacing the cheapest ammunition in the quiver if they would otherwise exceed the 60-unit capacity. These bits of Cantrip Ammunition are described her as arrows but can take the form of any ranged ammunition.<br>
+    Cantrip Ammunition counts as magical, and each one lasts until the next dawn before turning to dust. When fired they cast a cantrip on landing as specified in the table.<br>
+    Each type of Cantrip Ammunition can be fired harmlessly, having only the spell effect and no damage. Arrows fired in this way don't look any different, even lodging in the target despite being ethereal. Suggested for Friends arrows, or Spare the Dying arrows, for example.<br>
+    Cantrip Ammunition types that require a Melee or Ranged Spell Attack have their base damage replaced by the Cantrip Ammunition damage, the Spell Attack hitting if the arrow itself does. <br>
+    Cantrip Ammunition types that trigger a saving throw (or have a triggering condition, like Booming Blade), deal their normal damage on hit as well as the potential Cantrip damage<br>
+    The Cantrip Ammunition types Magic Stone and Greenflame Blade deal normal damage (including bonuses) to their main target and the listed damage (without bonuses) to a second target.<br>
+    Regardless of which of the three above types the Cantrip Ammunition is, apply bonuses as usual (e.g. if +1 if fired from a magical bow, or +10 from the Sharpshooter feat).<br>
+    </div>
+    <h5>Origin</h5>
+    <div>
+    This quiver, which is largely unremarkable except for a few wildflowers woven into the structure that change and bloom each day, was originally a gift from a fey trickster, given to an archer who requested powerful magical arrows.<br>
+    It has since passed from archer to archer, sometimes as a gift but more often claimed as a trophy after a fatal dispute.<br>
+    Should it ever be held by one without the skills to use it (proficiency with a martial ranged weapon) for three successive dawns, on the third dawn it will reappear in the hands of the nearest previously-attuned owner living and on the same plane of existence, or the nearest archer who could be worthy (if no previously-attuned owners are living and on the same plane of existence).    <br>
+    </div>
+    <h5>Generator</h5>
+    <a href="https://docs.google.com/spreadsheets/d/1vq2hVdsBQb047sFlYBMOOhl1lPZSnnWlzrBXPx2hTlM/edit#gid=960129545">Lookup table</a>
+    
+    <div id = "numArrows0"></div>
+    <div id = "numArrows1"></div>
+    <div id = "numArrows2"></div>
+    <button onclick ="genArrows(0)">Generate from Standard List</button>
+    <button onclick ="genArrows(1)">Generate from Damaging List</button>
+    <button onclick ="genArrows(2)">Generate from Non-Damaging List</button>
+    <script src="javascript.js"></script>
+
+
+ </body>
+  </html>
